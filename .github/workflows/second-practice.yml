@@ -1,17 +1,14 @@
-Workflow:
- Second GitHub Actions Practice
+name: Second GitHub Actions Practice
 
-  Trigger: 
-   Main
+on:
+  push:
+    branches:
+      - main
 
-    Job name:
-     second-job
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
 
-      Runner:
-       ubuntu-latest
- 
-       Step Name:
-        Second practice message 
-
-         Message
-          I am getting better at GitHub Actions
+    steps:
+      - name: Second practice message
+        run: echo "I am getting better at GitHub Actions"
