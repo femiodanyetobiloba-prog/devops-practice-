@@ -1,0 +1,16 @@
+Workflow name: GitHub Actions Practice
+
+ Trigger: 
+    push to main
+
+     Job name: 
+       practice
+
+         Runner: 
+          ubuntu-latest
+
+            Step name:
+              Practice message
+
+                Message: 
+                  I am practicing GitHub Actions
