@@ -1,0 +1,17 @@
+Workflow:
+ Second GitHub Actions Practice
+
+  Trigger: 
+   Main
+
+    Job name:
+     second-job
+
+      Runner:
+       ubuntu-latest
+ 
+       Step Name:
+        Second practice message 
+
+         Message
+          I am getting better at GitHub Actions
