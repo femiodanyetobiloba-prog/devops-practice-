@@ -1,0 +1,15 @@
+YAML
+Name: Third GitHub Actions Practice
+
+On:
+ Push:
+  Branches:
+   Main:
+
+Jobs:
+ third-job
+  Runner: ubuntu-latest
+
+Steps:
+ Name: Learning message
+  Run: I now understand the basic structure of GitHub Actions
