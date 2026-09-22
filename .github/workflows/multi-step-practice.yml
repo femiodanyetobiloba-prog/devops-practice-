@@ -1,0 +1,23 @@
+name: Multi Step Practice
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  practice-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show repository files
+        run: ls
+
+      - name: Print learning message
+        run: echo "I am learning multiple GitHub Actions steps"
+
+      - name: Show current date
+        run: date
